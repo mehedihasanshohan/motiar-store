@@ -19,7 +19,11 @@ const router = createBrowserRouter([
     element: <Root></Root>,
     children: [
       {index: true, Component: Home},
-      {path: 'products', Component: Products},
+      {
+        path: 'products',
+        loader: () => fetch('products.json'),
+        Component: Products,
+      },
       {path: 'contacts', Component: Contacts},
       {path: 'about', Component: About}
     ]

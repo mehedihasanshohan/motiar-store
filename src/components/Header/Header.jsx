@@ -31,7 +31,7 @@ const Header = () => {
       </li>
       </ul>
     </div>
-      <h1 className="text-xl font-bold
+      <h1 className="lg:text-3xl font-bold
                  bg-clip-text text-transparent
                  bg-gradient-to-r from-cyan-400 via-pink-500 to-blue-600
                  drop-shadow-md ml-4">
