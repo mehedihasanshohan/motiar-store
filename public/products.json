@@ -440,7 +440,7 @@
                 "rating": 4.8
             },
             {
-                "id": 43,
+                "id": 45,
                 "name": "Family pack Noodles",
                 "price": 175.99,
                 "image": "https://i.ibb.co/fdNLYVmV/0706711-mr-noodles-12-pcs-family-pack-masala-62gm-x-12pcs.webp",
@@ -450,7 +450,7 @@
                 "rating": 4.8
             },
             {
-                "id": 44,
+                "id": 46,
                 "name": "Stick Noodles",
                 "price": 19.99,
                 "image": "https://i.ibb.co/p6mZp7Tq/fresh-stick-noodles-egg-masala-120-gm.jpg",
@@ -460,7 +460,7 @@
                 "rating": 4.8
             },
             {
-                "id": 45,
+                "id": 47,
                 "name": "Noodles Mini Pack",
                 "price": 9.99,
                 "image": "https://i.ibb.co/Y4M5vKWP/mininoodles.jpg",
@@ -470,32 +470,12 @@
                 "rating": 4.8
             },
             {
-                "id": 46,
+                "id": 48,
                 "name": "Biscuits",
                 "price": 49.99,
                 "image": "https://i.ibb.co/v6RZT25Q/download.png",
                 "description": "Crispy and crunchy biscuits with a hint of sweetness.",
                 "category": "biscuits",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 47,
-                "name": "Center Fruits",
-                "price": 2.99,
-                "image": "https://i.ibb.co/Y7Yk60nc/center-fruits.jpg",
-                "description": "Chewy and fruity candy with a burst of flavor.",
-                "category": "center-fruits",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 48,
-                "name": "Soft Cake",
-                "price": 5.00,
-                "image": "https://i.ibb.co/sJ9mRKrJ/cake.jpg",
-                "description": "Soft and fluffy cake with a rich chocolate flavor.",
-                "category": "cake",
                 "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
                 "rating": 4.8
             },
@@ -630,7 +610,7 @@
                 "rating": 4.8
             },
             {
-                "id": 59,
+                "id": 62,
                 "name": "Clemon 1L",
                 "price": 60.00,
                 "image": "https://i.ibb.co/XZtLbjbw/clemon1ltr.jpg",
@@ -640,7 +620,7 @@
                 "rating": 4.8
             },
             {
-                "id": 60,
+                "id": 63,
                 "name": "MUM Fresh Water",
                 "price": 15.00,
                 "image": "https://i.ibb.co/pvcfkm1Q/mum.jpg",
@@ -650,7 +630,7 @@
                 "rating": 4.8
             },
             {
-                "id": 61,
+                "id": 64,
                 "name": "MUM Fresh Water 1L",
                 "price": 30.00,
                 "image": "https://i.ibb.co/QLz4nVH/mum1l.jpg",
@@ -660,7 +640,7 @@
                 "rating": 4.8
             },
             {
-                "id": 62,
+                "id": 65,
                 "name": "PRAN Fresh Water 2L",
                 "price": 40.00,
                 "image": "https://i.ibb.co/nxvrr04/pran2l.jpg",
@@ -668,8 +648,25 @@
                 "category": "drinks",
                 "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
                 "rating": 4.8
+            },
+            {
+                "id": 66,
+                "name": "Center Fruits",
+                "price": 2.99,
+                "image": "https://i.ibb.co/Y7Yk60nc/center-fruits.jpg",
+                "description": "Chewy and fruity candy with a burst of flavor.",
+                "category": "center-fruits",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 67,
+                "name": "Soft Cake",
+                "price": 5.00,
+                "image": "https://i.ibb.co/sJ9mRKrJ/cake.jpg",
+                "description": "Soft and fluffy cake with a rich chocolate flavor.",
+                "category": "cake",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
             }
-
-
-
         ]
