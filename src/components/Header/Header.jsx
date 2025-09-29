@@ -3,6 +3,7 @@ import Button from '../Button/Button'
 import ReactiveButton from 'reactive-button';
 import { ShoppingCart } from 'lucide-react';
 import { Heart } from 'lucide-react';
+import { NavLink } from 'react-router';
 
 const Header = () => {
   return (
@@ -15,23 +16,42 @@ const Header = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu dropdown-content bg-white rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Home</a></li>
-        <li><a>Products</a></li>
-        <li><a>Contacts</a></li>
-        <li><a>About</a></li>
+        className="menu dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow">
+        <li>
+        <NavLink to='/'><ReactiveButton color='' rounded idleText={'Home'}></ReactiveButton></NavLink>
+      </li>
+      <li>
+        <NavLink to='/products'><ReactiveButton color='red' rounded idleText={'Products'}></ReactiveButton></NavLink>
+        </li>
+      <li>
+        <NavLink to='/contacts'><ReactiveButton color='red' rounded idleText={'Contact'}></ReactiveButton></NavLink>
+      </li>
+      <li>
+        <NavLink to='/about'><ReactiveButton color='purple' rounded idleText={'About Us'}></ReactiveButton></NavLink>
+      </li>
       </ul>
     </div>
-    <h2 className="text-xl ml-6 bg-gradient-to-r from-cyan-400  to-pink-600 bg-clip-text text-transparent">
-      Motiar General Store
-    </h2>
+      <h1 className="text-xl font-bold
+                 bg-clip-text text-transparent
+                 bg-gradient-to-r from-cyan-400 via-pink-500 to-blue-600
+                 drop-shadow-md ml-4">
+        Motiar General Store
+      </h1>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className=" flex gap-4 text-2xl menu-horizontal b-2 px-1">
-      <li><ReactiveButton color='' rounded idleText={'Home'}></ReactiveButton></li>
-      <li><ReactiveButton color='red' rounded idleText={'Products'}></ReactiveButton></li>
-      <li><ReactiveButton color='red' rounded idleText={'Contact'}></ReactiveButton></li>
-      <li><ReactiveButton color='purple' rounded idleText={'About Us'}></ReactiveButton></li>
+      <li>
+        <NavLink to='/'><ReactiveButton color='' rounded idleText={'Home'}></ReactiveButton></NavLink>
+      </li>
+      <li>
+        <NavLink to='/products'><ReactiveButton color='red' rounded idleText={'Products'}></ReactiveButton></NavLink>
+        </li>
+      <li>
+        <NavLink to='/contacts'><ReactiveButton color='red' rounded idleText={'Contact'}></ReactiveButton></NavLink>
+      </li>
+      <li>
+        <NavLink to='/about'><ReactiveButton color='purple' rounded idleText={'About Us'}></ReactiveButton></NavLink>
+      </li>
     </ul>
   </div>
   <div className="navbar-end mr-6">
