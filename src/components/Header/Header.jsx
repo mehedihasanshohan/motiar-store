@@ -8,7 +8,7 @@ import { NavLink } from 'react-router';
 const Header = () => {
   return (
     <>
-      <div className="navbar bg-sky-500/20 text-black font-bold text-2xl shadow-sm">
+      <div className="navbar sticky top-0 bg-sky-500/20 text-black font-bold text-2xl shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-success lg:hidden">
