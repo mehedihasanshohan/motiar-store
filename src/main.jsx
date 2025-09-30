@@ -6,7 +6,6 @@ import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Root from './components/Root/Root';
 import Home from './components/Home/Home';
-import Mobiles from './components/Mobiles/Mobiles';
 import Products from './components/Products/Products';
 import Contacts from './components/Contacts/Contacts';
 import About from './components/About/About';
@@ -23,7 +22,7 @@ const router = createBrowserRouter([
       {
         path: 'products',
         loader: () => fetch('products.json'),
-        Component: Products,
+        Component: Products
       },
      {
         path: 'products/:productId',
@@ -33,7 +32,7 @@ const router = createBrowserRouter([
 
           // find the product with the matching id
           const product = products.find(p => p.id === parseInt(params.productId));
-          return product;
+          return {product, products};
            },
         Component: ProductDetails
      },
@@ -50,6 +49,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />,
-  </StrictMode>,
+    <RouterProvider router={router} />
+  </StrictMode>
 )

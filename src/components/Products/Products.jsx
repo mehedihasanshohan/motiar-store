@@ -1,12 +1,13 @@
 import { useLoaderData } from 'react-router'
 import Product from '../Product/Product';
+import ReactiveButton from 'reactive-button';
+
 
 const Products = () => {
   const products = useLoaderData();
-  console.log(products);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-6 px-4 sticky top-0">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-6 px-4">
 
       {/* Left Sidebar - Filters */}
       <aside className="shadow-md  rounded-lg p-4 md:col-span-1 h-fit">

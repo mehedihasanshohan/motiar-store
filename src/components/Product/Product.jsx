@@ -1,8 +1,9 @@
-import React from 'react';
 import { Link } from 'react-router';
+
 
 const Product = ({ product }) => {
   const { id, name, price, description, rating, category, image } = product;
+  // console.log(data);
 
   return (
     <div className="max-w-sm bg-slate-400 border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
@@ -23,7 +24,7 @@ const Product = ({ product }) => {
           Add to Cart
         </button>
         <Link to={`/products/${id}`}>
-         <button className="mt-2 w-full bg-green-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors">
+         <button className="mt-2 w-full bg-green-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
            Show Details
          </button>
         </Link>
