@@ -1,4 +1,274 @@
          [
+             {
+                "id": 41,
+                "name": "Bombay Chips",
+                "price": 9.99,
+                "image": "https://i.ibb.co/jvHnjryd/chips.webp",
+                "description": "Potato Crackers. Crispy, Tasty & Spicy Bombay Chips.",
+                "category": "chips",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.9
+            },
+            {
+                "id": 42,
+                "name": "Mango Juice",
+                "price": 19.99,
+                "image": "https://i.ibb.co/ycgvtN67/pran-mango-juice-1ltr.jpg",
+                "description": "Non preservative pure Mango Juice.",
+                "category": "juice",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.9
+            },
+            {
+                "id": 43,
+                "name": "Matador Ballpen",
+                "price": 4.99,
+                "image": "https://i.ibb.co/v6RZT25Q/download.png",
+                "description": "Fluied writing fantastic colourful Ballpen.",
+                "category": "pen",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 44,
+                "name": "Dry Cake",
+                "price": 10.00,
+                "image": "https://i.ibb.co/6JbKc41D/drycake.jpg",
+                "description": "Soft and fluffy cake with a rich chocolate flavor.",
+                "category": "cake",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 45,
+                "name": "Family pack Noodles",
+                "price": 175.99,
+                "image": "https://i.ibb.co/fdNLYVmV/0706711-mr-noodles-12-pcs-family-pack-masala-62gm-x-12pcs.webp",
+                "description": "Delicious instant noodles with a savory flavor.",
+                "category": "noodles",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 46,
+                "name": "Stick Noodles",
+                "price": 19.99,
+                "image": "https://i.ibb.co/p6mZp7Tq/fresh-stick-noodles-egg-masala-120-gm.jpg",
+                "description": "Delicious instant noodles with a savory flavor.",
+                "category": "noodles",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 47,
+                "name": "Noodles Mini Pack",
+                "price": 9.99,
+                "image": "https://i.ibb.co/Y4M5vKWP/mininoodles.jpg",
+                "description": "Delicious instant noodles with a savory flavor.",
+                "category": "noodles",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 48,
+                "name": "Biscuits",
+                "price": 49.99,
+                "image": "https://i.ibb.co/v6RZT25Q/download.png",
+                "description": "Crispy and crunchy biscuits with a hint of sweetness.",
+                "category": "biscuits",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 49,
+                "name": "Vanilla Cake",
+                "price": 30.00,
+                "image": "https://i.ibb.co/7tPM05v5/all-time-family-cake-ghee-cake-edited-png.webp",
+                "description": "Soft and fluffy cake with a rich vanilla flavor.",
+                "category": "cake",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 50,
+                "name": "Gel Pen",
+                "price": 30.00,
+                "image": "https://i.ibb.co/1JtqCLQQ/gel-pen.jpg",
+                "description": "Smooth writing gel pen with vibrant ink colors.",
+                "category": "pen",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 51,
+                "name": "200ml Juice",
+                "price": 20.00,
+                "image": "https://i.ibb.co/tPm0tm6n/images.jpg",
+                "description": "Refreshing fruit juice in a convenient 200ml pack.",
+                "category": "juice",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 52,
+                "name": "1 litre Juice",
+                "price": 80.00,
+                "image": "https://i.ibb.co/SDs0RLkc/1ltr.jpg",
+                "description": "Refreshing fruit juice in a convenient 1 litre pack.",
+                "category": "juice",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 53,
+                "name": "Alooz Chips",
+                "price": 20.00,
+                "image": "https://i.ibb.co/Sh9LwkL/alooz.jpg",
+                "description": "Crispy and crunchy potato chips with a hint of spice.",
+                "category": "chips",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 54,
+                "name": "Mr. Twist Chips",
+                "price": 20.00,
+                "image": "https://i.ibb.co/XfQLkVxy/download-3.jpg",
+                "description": "Crispy and crunchy potato chips with a twist of flavor.",
+                "category": "chips",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 55,
+                "name": "Mighty Chips",
+                "price": 10.00,
+                "image": "https://i.ibb.co/skHmDcP/download-2.jpg",
+                "description": "Crispy and crunchy potato chips with a mighty flavor.",
+                "category": "chips",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 56,
+                "name": "Speed Can",
+                "price": 50.00,
+                "image": "https://i.ibb.co/Y7k0dRg6/speedcan.jpg",
+                "description": "Refreshing energy drink in a convenient can.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 57,
+                "name": "Speed",
+                "price": 30.00,
+                "image": "https://i.ibb.co/W4dz96NB/speed.jpg",
+                "description": "Refreshing energy drink in a convenient bottle.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 58,
+                "name": "Mojo",
+                "price": 20.00,
+                "image": "https://i.ibb.co/Xkbhd5ZG/mojo.jpg",
+                "description": "Refreshing energy drink with a unique flavor.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 59,
+                "name": "Mojo 2L",
+                "price": 20.00,
+                "image": "https://i.ibb.co/t915T9f/mojo2litr.jpg",
+                "description": "Refreshing energy drink with a unique flavor.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 60,
+                "name": "Clemon",
+                "price": 20.00,
+                "image": "https://i.ibb.co/dybJWL5/clemon.jpg",
+                "description": "Refreshing energy drink with a unique flavor.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 61,
+                "name": "Clemon 2L",
+                "price": 100.00,
+                "image": "https://i.ibb.co/7t5WjmVD/clemon-2ltr.jpg",
+                "description": "Refreshing energy drink with a unique flavor.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 62,
+                "name": "Clemon 1L",
+                "price": 60.00,
+                "image": "https://i.ibb.co/XZtLbjbw/clemon1ltr.jpg",
+                "description": "Refreshing energy drink with a unique flavor.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 63,
+                "name": "MUM Fresh Water",
+                "price": 15.00,
+                "image": "https://i.ibb.co/pvcfkm1Q/mum.jpg",
+                "description": "Pure and refreshing drinking water in a convenient bottle.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 64,
+                "name": "MUM Fresh Water 1L",
+                "price": 30.00,
+                "image": "https://i.ibb.co/QLz4nVH/mum1l.jpg",
+                "description": "Pure and refreshing drinking water in a convenient 1 litre bottle.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 65,
+                "name": "PRAN Fresh Water 2L",
+                "price": 40.00,
+                "image": "https://i.ibb.co/nxvrr04/pran2l.jpg",
+                "description": "Pure and refreshing drinking water in a convenient 2 litre bottle.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 66,
+                "name": "Center Fruits",
+                "price": 2.99,
+                "image": "https://i.ibb.co/Y7Yk60nc/center-fruits.jpg",
+                "description": "Chewy and fruity candy with a burst of flavor.",
+                "category": "center-fruits",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 67,
+                "name": "Soft Cake",
+                "price": 5.00,
+                "image": "https://i.ibb.co/sJ9mRKrJ/cake.jpg",
+                "description": "Soft and fluffy cake with a rich chocolate flavor.",
+                "category": "cake",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
             {
                 "id": 1,
                 "name": "Wireless Headphones",
@@ -398,275 +668,6 @@
                 "category": "electronics",
                 "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
                 "rating": 4.7
-            },
-            {
-                "id": 41,
-                "name": "Bombay Chips",
-                "price": 9.99,
-                "image": "https://i.ibb.co/jvHnjryd/chips.webp",
-                "description": "Potato Crackers. Crispy, Tasty & Spicy Bombay Chips.",
-                "category": "chips",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.9
-            },
-            {
-                "id": 42,
-                "name": "Mango Juice",
-                "price": 19.99,
-                "image": "https://i.ibb.co/ycgvtN67/pran-mango-juice-1ltr.jpg",
-                "description": "Non preservative pure Mango Juice.",
-                "category": "juice",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.9
-            },
-            {
-                "id": 43,
-                "name": "Matador Ballpen",
-                "price": 4.99,
-                "image": "https://i.ibb.co/v6RZT25Q/download.png",
-                "description": "Fluied writing fantastic colourful Ballpen.",
-                "category": "pen",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 44,
-                "name": "Dry Cake",
-                "price": 10.00,
-                "image": "https://i.ibb.co/6JbKc41D/drycake.jpg",
-                "description": "Soft and fluffy cake with a rich chocolate flavor.",
-                "category": "cake",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 45,
-                "name": "Family pack Noodles",
-                "price": 175.99,
-                "image": "https://i.ibb.co/fdNLYVmV/0706711-mr-noodles-12-pcs-family-pack-masala-62gm-x-12pcs.webp",
-                "description": "Delicious instant noodles with a savory flavor.",
-                "category": "noodles",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 46,
-                "name": "Stick Noodles",
-                "price": 19.99,
-                "image": "https://i.ibb.co/p6mZp7Tq/fresh-stick-noodles-egg-masala-120-gm.jpg",
-                "description": "Delicious instant noodles with a savory flavor.",
-                "category": "noodles",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 47,
-                "name": "Noodles Mini Pack",
-                "price": 9.99,
-                "image": "https://i.ibb.co/Y4M5vKWP/mininoodles.jpg",
-                "description": "Delicious instant noodles with a savory flavor.",
-                "category": "noodles",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 48,
-                "name": "Biscuits",
-                "price": 49.99,
-                "image": "https://i.ibb.co/v6RZT25Q/download.png",
-                "description": "Crispy and crunchy biscuits with a hint of sweetness.",
-                "category": "biscuits",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 49,
-                "name": "Vanilla Cake",
-                "price": 30.00,
-                "image": "https://i.ibb.co/7tPM05v5/all-time-family-cake-ghee-cake-edited-png.webp",
-                "description": "Soft and fluffy cake with a rich vanilla flavor.",
-                "category": "cake",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 50,
-                "name": "Gel Pen",
-                "price": 30.00,
-                "image": "https://i.ibb.co/1JtqCLQQ/gel-pen.jpg",
-                "description": "Smooth writing gel pen with vibrant ink colors.",
-                "category": "pen",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 51,
-                "name": "200ml Juice",
-                "price": 20.00,
-                "image": "https://i.ibb.co/tPm0tm6n/images.jpg",
-                "description": "Refreshing fruit juice in a convenient 200ml pack.",
-                "category": "juice",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 52,
-                "name": "1 litre Juice",
-                "price": 80.00,
-                "image": "https://i.ibb.co/SDs0RLkc/1ltr.jpg",
-                "description": "Refreshing fruit juice in a convenient 1 litre pack.",
-                "category": "juice",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 53,
-                "name": "Alooz Chips",
-                "price": 20.00,
-                "image": "https://i.ibb.co/Sh9LwkL/alooz.jpg",
-                "description": "Crispy and crunchy potato chips with a hint of spice.",
-                "category": "chips",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 54,
-                "name": "Mr. Twist Chips",
-                "price": 20.00,
-                "image": "https://i.ibb.co/XfQLkVxy/download-3.jpg",
-                "description": "Crispy and crunchy potato chips with a twist of flavor.",
-                "category": "chips",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 55,
-                "name": "Mighty Chips",
-                "price": 10.00,
-                "image": "https://i.ibb.co/skHmDcP/download-2.jpg",
-                "description": "Crispy and crunchy potato chips with a mighty flavor.",
-                "category": "chips",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 56,
-                "name": "Speed Can",
-                "price": 50.00,
-                "image": "https://i.ibb.co/Y7k0dRg6/speedcan.jpg",
-                "description": "Refreshing energy drink in a convenient can.",
-                "category": "drinks",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 57,
-                "name": "Speed",
-                "price": 30.00,
-                "image": "https://i.ibb.co/W4dz96NB/speed.jpg",
-                "description": "Refreshing energy drink in a convenient bottle.",
-                "category": "drinks",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 58,
-                "name": "Mojo",
-                "price": 20.00,
-                "image": "https://i.ibb.co/Xkbhd5ZG/mojo.jpg",
-                "description": "Refreshing energy drink with a unique flavor.",
-                "category": "drinks",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 59,
-                "name": "Mojo 2L",
-                "price": 20.00,
-                "image": "https://i.ibb.co/t915T9f/mojo2litr.jpg",
-                "description": "Refreshing energy drink with a unique flavor.",
-                "category": "drinks",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 60,
-                "name": "Clemon",
-                "price": 20.00,
-                "image": "https://i.ibb.co/dybJWL5/clemon.jpg",
-                "description": "Refreshing energy drink with a unique flavor.",
-                "category": "drinks",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 61,
-                "name": "Clemon 2L",
-                "price": 100.00,
-                "image": "https://i.ibb.co/7t5WjmVD/clemon-2ltr.jpg",
-                "description": "Refreshing energy drink with a unique flavor.",
-                "category": "drinks",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 62,
-                "name": "Clemon 1L",
-                "price": 60.00,
-                "image": "https://i.ibb.co/XZtLbjbw/clemon1ltr.jpg",
-                "description": "Refreshing energy drink with a unique flavor.",
-                "category": "drinks",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 63,
-                "name": "MUM Fresh Water",
-                "price": 15.00,
-                "image": "https://i.ibb.co/pvcfkm1Q/mum.jpg",
-                "description": "Pure and refreshing drinking water in a convenient bottle.",
-                "category": "drinks",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 64,
-                "name": "MUM Fresh Water 1L",
-                "price": 30.00,
-                "image": "https://i.ibb.co/QLz4nVH/mum1l.jpg",
-                "description": "Pure and refreshing drinking water in a convenient 1 litre bottle.",
-                "category": "drinks",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 65,
-                "name": "PRAN Fresh Water 2L",
-                "price": 40.00,
-                "image": "https://i.ibb.co/nxvrr04/pran2l.jpg",
-                "description": "Pure and refreshing drinking water in a convenient 2 litre bottle.",
-                "category": "drinks",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 66,
-                "name": "Center Fruits",
-                "price": 2.99,
-                "image": "https://i.ibb.co/Y7Yk60nc/center-fruits.jpg",
-                "description": "Chewy and fruity candy with a burst of flavor.",
-                "category": "center-fruits",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
-            },
-            {
-                "id": 67,
-                "name": "Soft Cake",
-                "price": 5.00,
-                "image": "https://i.ibb.co/sJ9mRKrJ/cake.jpg",
-                "description": "Soft and fluffy cake with a rich chocolate flavor.",
-                "category": "cake",
-                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
-                "rating": 4.8
             }
+
         ]

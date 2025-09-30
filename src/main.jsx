@@ -10,6 +10,7 @@ import Mobiles from './components/Mobiles/Mobiles';
 import Products from './components/Products/Products';
 import Contacts from './components/Contacts/Contacts';
 import About from './components/About/About';
+import ProductDetails from './components/ProductDetails/ProductDetails';
 
 
 
@@ -24,9 +25,21 @@ const router = createBrowserRouter([
         loader: () => fetch('products.json'),
         Component: Products,
       },
+     {
+        path: 'products/:productId',
+        loader: async ({ params }) => {
+          const res = await fetch('/products.json'); // fetch all products
+          const products = await res.json();
+
+          // find the product with the matching id
+          const product = products.find(p => p.id === parseInt(params.productId));
+          return product;
+           },
+        Component: ProductDetails
+     },
       {path: 'contacts', Component: Contacts},
       {path: 'about', Component: About}
-    ]
+     ]
   },
   {
     path: "/about",
