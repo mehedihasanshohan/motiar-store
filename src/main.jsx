@@ -10,6 +10,7 @@ import Products from './components/Products/Products';
 import Contacts from './components/Contacts/Contacts';
 import About from './components/About/About';
 import ProductDetails from './components/ProductDetails/ProductDetails';
+import Error from './components/Error/Error';
 
 
 const router = createBrowserRouter([
@@ -36,7 +37,11 @@ const router = createBrowserRouter([
         Component: ProductDetails
      },
       {path: 'contacts', Component: Contacts},
-      {path: 'about', Component: About}
+      {path: 'about', Component: About},
+      {
+        path: '*',
+        element: <Error></Error>
+      }
      ]
   },
   {

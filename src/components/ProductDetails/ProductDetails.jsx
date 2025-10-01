@@ -8,7 +8,7 @@ const ProductDetails = () => {
    const navigate = useNavigate();
 
   const handeNavigate = ( )=> {
-    navigate('/')
+    navigate(-1)
   }
   if (!product) return <p>Product not found!</p>;
 
@@ -22,7 +22,7 @@ const ProductDetails = () => {
   return (
     <div className="p-6">
       {/* Main Product */}
-      <button className="btn btn-info text-center mb-4 mt-4" onClick={handeNavigate}>Go Home</button>
+      <button className="btn btn-info text-center mb-4 mt-4" onClick={handeNavigate}>Go Back</button>
 
       <div className="bg-slate-600 p-6 shadow rounded-lg">
         <img className="h-72 object-contain rounded" src={image} alt={name} />

@@ -1,11 +1,11 @@
-import { Link, useNavigate } from 'react-router';
+import { Link } from 'react-router';
 
 
 const Product = ({ product, handleAddProduct }) => {
   const { id, name, price, description, rating, category, image } = product;
   // console.log(data);
 
- 
+
 
   return (
     <div className="max-w-sm bg-slate-400 border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
