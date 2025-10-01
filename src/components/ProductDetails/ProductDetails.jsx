@@ -1,10 +1,15 @@
 
-import { useLoaderData } from "react-router";
+import { useLoaderData, useNavigate } from "react-router";
 import Product from "../Product/Product";
 
 const ProductDetails = () => {
   const { product, products } = useLoaderData();
 
+   const navigate = useNavigate();
+
+  const handeNavigate = ( )=> {
+    navigate('/')
+  }
   if (!product) return <p>Product not found!</p>;
 
   const { id, name, price, description, rating, category, image } = product;
@@ -17,6 +22,8 @@ const ProductDetails = () => {
   return (
     <div className="p-6">
       {/* Main Product */}
+      <button className="btn btn-info text-center mb-4 mt-4" onClick={handeNavigate}>Go Home</button>
+
       <div className="bg-slate-600 p-6 shadow rounded-lg">
         <img className="h-72 object-contain rounded" src={image} alt={name} />
         <h2 className="text-3xl font-bold mt-4 text-green-500">{name}</h2>

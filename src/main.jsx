@@ -12,7 +12,6 @@ import About from './components/About/About';
 import ProductDetails from './components/ProductDetails/ProductDetails';
 
 
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,7 +21,7 @@ const router = createBrowserRouter([
       {
         path: 'products',
         loader: () => fetch('products.json'),
-        Component: Products
+        element: <Products></Products>
       },
      {
         path: 'products/:productId',

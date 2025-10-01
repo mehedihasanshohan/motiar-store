@@ -1,9 +1,11 @@
-import { Link } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 
 
-const Product = ({ product }) => {
+const Product = ({ product, handleAddProduct }) => {
   const { id, name, price, description, rating, category, image } = product;
   // console.log(data);
+
+ 
 
   return (
     <div className="max-w-sm bg-slate-400 border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
@@ -20,7 +22,7 @@ const Product = ({ product }) => {
           <span className="text-gray-900 font-bold text-lg">৳{price}</span>
           <span className="text-yellow-200 font-semibold">{rating} ★</span>
         </div>
-        <button className="mt-2 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors">
+        <button onClick={() => handleAddProduct(product)} className="mt-2 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors">
           Add to Cart
         </button>
         <Link to={`/products/${id}`}>
@@ -34,3 +36,5 @@ const Product = ({ product }) => {
 };
 
 export default Product;
+
+
