@@ -1,8 +1,12 @@
-import React from 'react'
+import MarqueeSection from "../MarqueeSection/MarqueeSection"
+import Review from "../Review/Review"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <MarqueeSection></MarqueeSection>
+      <Review></Review>
+    </div>
   )
 }
 
