@@ -7,7 +7,6 @@ import paste from '/banner/paste.jfif'
 import ata from '/banner/ata.jfif'
 import mojo2 from '/banner/mojo2.jfif'
 import polarchal2 from '/banner/polarchal2.jfif'
-
 import ndls  from '/banner/ndls.jfif'
 import biscuit  from '/banner/biscuit.jfif'
 import handwash  from '/banner/handwash.jfif'
@@ -54,7 +53,8 @@ const products = [
 const MarqueeSection = () => {
   return (
     <div className="bg-sky-900/30 mt-8 overflow-hidden py-4">
-      <div className="flex animate-marquee whitespace-nowrap">
+      <h2 className="text-center font-semibold text-white mb-2 text-2xl">Popular Categories ...</h2>
+      <div className="flex animate-marquee whitespace-nowrap mb-2">
         {products.concat(products).map((product, index) => (
           <div
             key={index}

@@ -71,7 +71,7 @@ export default function Review() {
               </div>
 
               {/* Name & Title */}
-              <h3 className="font-semibold text-lg">{r.name}</h3>
+              <h3 className="font-semibold text-2xl mb-2">{r.name}</h3>
               <p className="text-sm text-gray-400 mb-2">{r.title}</p>
 
               {/* Rating */}
