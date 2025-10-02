@@ -1,11 +1,27 @@
 import React from "react";
 import chal from '/banner/chal.jfif'
 import dal from '/banner/dal.jfif'
-import ata from '/banner/ata.jfif'
 import tel from '/banner/soyabin.jfif'
 import soap from '/banner/soap.jfif'
 import paste from '/banner/paste.jfif'
-import polarchal from '/banner/polarchal.jfif'
+import ata from '/banner/ata.jfif'
+import mojo2 from '/banner/mojo2.jfif'
+import polarchal2 from '/banner/polarchal2.jfif'
+
+import ndls  from '/banner/ndls.jfif'
+import biscuit  from '/banner/biscuit.jfif'
+import handwash  from '/banner/handwash.jfif'
+import egg2  from '/banner/egg2.jfif'
+import chanachur  from '/banner/chanachur.jfif'
+import tissue from '/banner/tissue.jfif'
+import khata  from '/banner/khata.jfif'
+import pen  from '/banner/pen.jfif'
+import pencil  from '/banner/pencil.jfif'
+import brush  from '/banner/brush.webp'
+import powder  from '/banner/powder.jfif'
+import cake2  from '/banner/cake2.jfif'
+import sauce  from '/banner/sauce.jfif'
+import chocolate  from '/banner/chocolate.jfif'
 
 
 
@@ -14,24 +30,24 @@ const products = [
   { name: "ডাল", title: "Lentils", img: dal },
   { name: "সয়াবিন তেল", title: "Oil", img:tel },
   { name: "আটা", title: "Flour", img: ata },
-  { name: "নুডলস", title: "Instant Food", img: chal },
-  { name: "কেক", title: "Bakery", img: chal},
-  { name: "বিস্কুট", title: "Snack", img: chal },
+  { name: "নুডলস", title: "Instant Food", img: ndls },
+  { name: "কেক", title: "Bakery", img: cake2},
+  { name: "বিস্কুট", title: "Snack", img: biscuit },
   { name: "সাবান", title: "Soap", img: soap },
   { name: "পেস্ট", title: "Paste", img: paste },
-  { name: "চকলেট", title: "Chocolate", img: chal },
-  { name: "পানিও", title: "Beverage", img: chal },
-  { name: "পাউডার", title: "Powder", img: chal },
-  { name: "ব্রাশ", title: "Brush", img: chal },
-  { name: "টিস্যু", title: "Tissue", img: chal },
-  { name: "পলাচাল", title: "Polarchal", img: polarchal },
-  { name: "খাতা", title: "Notebook", img: chal },
-  { name: "কলম", title: "Pen", img: chal },
-  { name: "পেন্সিল", title: "Pencil", img: chal },
-  { name: "চানাচুর", title: "Snack", img: chal },
-  { name: "ডিম", title: "Egg", img: chal },
-  { name: "হ্যান্ডওয়াশ", title: "Handwash", img: chal },
-  { name: "সস", title: "Sauce", img: chal },
+  { name: "চকলেট", title: "Chocolate", img: chocolate },
+  { name: "পানিও", title: "Beverage", img: mojo2 },
+  { name: "পাউডার", title: "Powder", img: powder },
+  { name: "ব্রাশ", title: "Brush", img: brush },
+  { name: "টিস্যু", title: "Tissue", img: tissue },
+  { name: "চিনিগুড়া চাল", title: "Polarchal", img: polarchal2 },
+  { name: "খাতা", title: "Notebook", img: khata },
+  { name: "কলম", title: "Pen", img: pen },
+  { name: "পেন্সিল", title: "Pencil", img: pencil },
+  { name: "চানাচুর", title: "Snack", img: chanachur },
+  { name: "ডিম", title: "Egg", img: egg2 },
+  { name: "হ্যান্ডওয়াশ", title: "Handwash", img: handwash },
+  { name: "সস", title: "Sauce", img: sauce },
 ];
 
 
