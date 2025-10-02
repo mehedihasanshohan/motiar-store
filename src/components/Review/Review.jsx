@@ -7,7 +7,7 @@ import c4 from '/c4.jfif'
 const reviews = [
   {
     id: 1,
-    name: "Rahim Uddin",
+    name: "Ashim Guho",
     title: "স্থায়ী গ্রাহক",
     avatar: c1,
     rating: 5,
@@ -15,7 +15,7 @@ const reviews = [
   },
   {
     id: 2,
-    name: "Shohan Molla",
+    name: "Sujit Biswas",
     title: "গ্রাহক",
     avatar: c2,
     rating: 4,
@@ -23,7 +23,7 @@ const reviews = [
   },
   {
     id: 3,
-    name: "Karim Mia",
+    name: "Kim Jong Un",
     title: "প্রতিবেশী গ্রাহক",
     avatar: c3,
     rating: 5,
@@ -31,7 +31,7 @@ const reviews = [
   },
   {
     id: 4,
-    name: "Ashim Guho",
+    name: "Vladimir Putin",
     title: "গ্রাহক",
     avatar: c4,
     rating: 5,
@@ -54,7 +54,7 @@ const Star = ({ filled }) => (
 
 export default function Review() {
   return (
-    <section className="py-16 px-4">
+    <section className="py-16 bg-sky-900/30 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-10">গ্রাহক প্রতিক্রিয়া</h2>
 
@@ -62,7 +62,7 @@ export default function Review() {
           {reviews.map((r) => (
             <article
               key={r.id}
-              className="bg-slate-800 rounded-2xl p-6 flex flex-col items-center text-center"
+              className="bg-white/10 rounded-2xl p-6 flex flex-col items-center text-center"
               aria-label={`Review by ${r.name}`}
             >
               {/* Avatar */}

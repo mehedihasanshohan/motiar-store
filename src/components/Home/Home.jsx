@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner"
 import MarqueeSection from "../MarqueeSection/MarqueeSection"
+import OfferSection from "../Offer/Offer"
 import Review from "../Review/Review"
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <Banner></Banner>
       <MarqueeSection></MarqueeSection>
+      <OfferSection></OfferSection>
       <Review></Review>
     </div>
   )
