@@ -11,6 +11,7 @@ import Contacts from './components/Contacts/Contacts';
 import About from './components/About/About';
 import ProductDetails from './components/ProductDetails/ProductDetails';
 import Error from './components/Error/Error';
+import SimpleForm from './components/Form/SimpleForm';
 
 
 const router = createBrowserRouter([
@@ -38,6 +39,7 @@ const router = createBrowserRouter([
      },
       {path: 'contacts', Component: Contacts},
       {path: 'about', Component: About},
+      {path: 'form', element: <SimpleForm></SimpleForm>},
       {
         path: '*',
         element: <Error></Error>
@@ -53,6 +55,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
   </StrictMode>
 )

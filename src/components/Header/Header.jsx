@@ -5,7 +5,7 @@ import { ShoppingCart } from 'lucide-react';
 import { Heart } from 'lucide-react';
 import { NavLink } from 'react-router';
 
-const Header = () => {
+const Header = ({cartCount}) => {
   return (
     <>
       <div className="navbar bg-sky-500/20 text-black font-bold text-2xl shadow-sm">
@@ -52,15 +52,37 @@ const Header = () => {
       <li>
         <NavLink to='/about'><ReactiveButton color='purple' rounded idleText={'About Us'}></ReactiveButton></NavLink>
       </li>
+      {/* <li>
+        <NavLink to='/form'><ReactiveButton color='green' rounded idleText={'Form'}></ReactiveButton></NavLink>
+      </li> */}
     </ul>
   </div>
-  <div className="navbar-end mr-6">
-      <Heart className='text-cyan-300 mr-4'>Like</Heart>
-      <ShoppingCart className='text-cyan-300'>Shopping</ShoppingCart>
-  </div>
+
+  <div className="navbar-end mr-6 flex items-center gap-4">
+        <div className="relative">
+          <Heart className="text-cyan-300 w-7 h-7" />
+        </div>
+        <div className="relative">
+          <ShoppingCart className="text-cyan-300 w-7 h-7" />
+          {/* count badge */}
+          {cartCount > 0 && (
+            <span className="absolute -top-3 -right-3 bg-red-500 text-white text-sm font-bold rounded-full w-6 h-6 flex items-center justify-center">
+              {cartCount}
+            </span>
+          )}
+        </div>
+      </div>
 </div>
     </>
   )
 }
 
 export default Header
+
+
+
+
+
+
+
+

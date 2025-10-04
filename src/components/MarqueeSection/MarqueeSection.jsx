@@ -52,8 +52,8 @@ const products = [
 
 const MarqueeSection = () => {
   return (
-    <div className="bg-sky-900/30 mt-8 overflow-hidden py-4">
-      <h2 className="text-center font-semibold text-white mb-2 text-2xl">Popular Categories ...</h2>
+    <div className="bg-sky-900/30 mt-12 overflow-hidden  py-4">
+      <h2 className="text-center font-semibold text-white mb-10 text-3xl">জনপ্রিয় পণ্যসমূহ ...</h2>
       <div className="flex animate-marquee whitespace-nowrap mb-2">
         {products.concat(products).map((product, index) => (
           <div

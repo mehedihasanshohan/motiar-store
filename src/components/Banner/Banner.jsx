@@ -64,7 +64,7 @@ import { NavLink } from 'react-router';
 
 const Banner = () => {
   return (
-    <div className="carousel w-full h-128">
+    <div className="carousel w-full bg-sky-900/30 h-128">
 
       {/* Slide 1 */}
       <div id="slide1" className="carousel-item relative w-full">

@@ -8,7 +8,7 @@ const Product = ({ product, handleAddProduct }) => {
 
 
   return (
-    <div className="max-w-sm bg-slate-400 border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+    <div className="max-w-sm bg-gray-800 border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
       <img
         className="w-full h-48 object-cover"
         src={image}
@@ -36,5 +36,9 @@ const Product = ({ product, handleAddProduct }) => {
 };
 
 export default Product;
+
+
+
+
 
 
