@@ -12,6 +12,7 @@ import About from './components/About/About';
 import ProductDetails from './components/ProductDetails/ProductDetails';
 import Error from './components/Error/Error';
 import SimpleForm from './components/Form/SimpleForm';
+import Checkout from './components/Checkout/Checkout';
 
 
 const router = createBrowserRouter([
@@ -39,7 +40,7 @@ const router = createBrowserRouter([
      },
       {path: 'contacts', Component: Contacts},
       {path: 'about', Component: About},
-      {path: 'form', element: <SimpleForm></SimpleForm>},
+      {path: 'checkout', element: <Checkout></Checkout>},
       {
         path: '*',
         element: <Error></Error>

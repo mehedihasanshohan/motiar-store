@@ -19,14 +19,21 @@ const Product = ({ product, handleAddProduct }) => {
         <p className="text-gray-200 text-sm mt-1">{category}</p>
         <p className="text-gray-200 mt-2">{description.substring(0, 60)}...</p>
         <div className="flex items-center justify-between mt-2">
-          <span className="text-gray-900 font-bold text-lg">৳{price}</span>
+          <span className="text-amber-400 font-bold text-lg">৳{price}</span>
           <span className="text-yellow-200 font-semibold">{rating} ★</span>
         </div>
-        <button onClick={() => handleAddProduct(product)} className="mt-2 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors">
+        <button
+            onClick={() => handleAddProduct(product)}
+            className="mt-2 w-full bg-blue-600 text-white
+                      py-2 rounded-lg hover:bg-blue-700
+                      cursor-pointer transition-colors">
           Add to Cart
         </button>
         <Link to={`/products/${id}`}>
-         <button className="mt-2 w-full bg-green-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
+         <button
+            className="mt-2 w-full bg-green-600 text-white
+            py-2 rounded-lg hover:bg-green-800 transition-colors
+            cursor-pointer">
            Show Details
          </button>
         </Link>

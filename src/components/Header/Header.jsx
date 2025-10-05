@@ -5,7 +5,7 @@ import { ShoppingCart } from 'lucide-react';
 import { Heart } from 'lucide-react';
 import { NavLink } from 'react-router';
 
-const Header = ({cartCount}) => {
+const Header = ({cartCount, goToCheckout}) => {
   return (
     <>
       <div className="navbar bg-sky-500/20 text-black font-bold text-2xl shadow-sm">
@@ -33,7 +33,7 @@ const Header = ({cartCount}) => {
     </div>
       <h1 className="lg:text-3xl font-bold
                  bg-clip-text text-transparent
-                 bg-gradient-to-r from-cyan-400 via-pink-500 to-blue-600
+                 bg-gradient-to-r from-amber-400 via-blue-500 to-pink-600
                  drop-shadow-md ml-4">
         Motiar General Store
       </h1>
@@ -62,8 +62,8 @@ const Header = ({cartCount}) => {
         <div className="relative">
           <Heart className="text-cyan-300 w-7 h-7" />
         </div>
-        <div className="relative">
-          <ShoppingCart className="text-cyan-300 w-7 h-7" />
+        <div className="relative" onClick={goToCheckout} role="button">
+          <ShoppingCart className="text-cyan-300 cursor-pointer w-7 h-7" />
           {/* count badge */}
           {cartCount > 0 && (
             <span className="absolute -top-3 -right-3 bg-red-500 text-white text-sm font-bold rounded-full w-6 h-6 flex items-center justify-center">

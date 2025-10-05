@@ -2,7 +2,7 @@
              {
                 "id": 41,
                 "name": "Bombay Chips",
-                "price": 9.99,
+                "price": 10.00,
                 "image": "https://i.ibb.co/jvHnjryd/chips.webp",
                 "description": "Potato Crackers. Crispy, Tasty & Spicy Bombay Chips.",
                 "category": "chips",
@@ -12,7 +12,7 @@
             {
                 "id": 42,
                 "name": "Mango Juice",
-                "price": 19.99,
+                "price": 20.00,
                 "image": "https://i.ibb.co/ycgvtN67/pran-mango-juice-1ltr.jpg",
                 "description": "Non preservative pure Mango Juice.",
                 "category": "juice",
@@ -22,7 +22,7 @@
             {
                 "id": 43,
                 "name": "Matador Ballpen",
-                "price": 4.99,
+                "price": 5.00,
                 "image": "https://i.ibb.co/v6RZT25Q/download.png",
                 "description": "Fluied writing fantastic colourful Ballpen.",
                 "category": "pen",
@@ -42,7 +42,7 @@
             {
                 "id": 45,
                 "name": "Family pack Noodles",
-                "price": 175.99,
+                "price": 140.00,
                 "image": "https://i.ibb.co/fdNLYVmV/0706711-mr-noodles-12-pcs-family-pack-masala-62gm-x-12pcs.webp",
                 "description": "Delicious instant noodles with a savory flavor.",
                 "category": "noodles",
@@ -52,7 +52,7 @@
             {
                 "id": 46,
                 "name": "Stick Noodles",
-                "price": 19.99,
+                "price": 20.00,
                 "image": "https://i.ibb.co/p6mZp7Tq/fresh-stick-noodles-egg-masala-120-gm.jpg",
                 "description": "Delicious instant noodles with a savory flavor.",
                 "category": "noodles",
@@ -62,7 +62,7 @@
             {
                 "id": 47,
                 "name": "Noodles Mini Pack",
-                "price": 9.99,
+                "price": 10.00,
                 "image": "https://i.ibb.co/Y4M5vKWP/mininoodles.jpg",
                 "description": "Delicious instant noodles with a savory flavor.",
                 "category": "noodles",
