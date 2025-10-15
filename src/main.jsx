@@ -13,6 +13,7 @@ import ProductDetails from './components/ProductDetails/ProductDetails';
 import Error from './components/Error/Error';
 import SimpleForm from './components/Form/SimpleForm';
 import Checkout from './components/Checkout/Checkout';
+import SignIn from './components/SignIn/SignIn';
 
 
 const router = createBrowserRouter([
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: '*',
         element: <Error></Error>
+      },
+      {
+        path:'/signin',
+        element: <SignIn></SignIn>
       }
      ]
   },
