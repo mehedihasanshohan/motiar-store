@@ -46,9 +46,9 @@ const Header = ({cartCount, goToCheckout}) => {
       <li>
         <NavLink to='/products'><ReactiveButton color='red' rounded idleText={'Products'}></ReactiveButton></NavLink>
         </li>
-      <li>
+      {/* <li>
         <NavLink to='/contacts'><ReactiveButton color='red' rounded idleText={'Contact'}></ReactiveButton></NavLink>
-      </li>
+      </li> */}
       <li>
         <NavLink to='/about'><ReactiveButton color='purple' rounded idleText={'About Us'}></ReactiveButton></NavLink>
       </li>
