@@ -52,9 +52,9 @@ const Header = ({cartCount, goToCheckout}) => {
       <li>
         <NavLink to='/about'><ReactiveButton color='purple' rounded idleText={'About Us'}></ReactiveButton></NavLink>
       </li>
-      {/* <li>
-        <NavLink to='/form'><ReactiveButton color='green' rounded idleText={'Form'}></ReactiveButton></NavLink>
-      </li> */}
+      <li>
+        <NavLink to='/form'><ReactiveButton color='green' rounded idleText={'Sign In'}></ReactiveButton></NavLink>
+      </li>
     </ul>
   </div>
 
