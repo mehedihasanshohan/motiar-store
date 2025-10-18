@@ -20,7 +20,7 @@ const SignIn = () => {
     })
   }
 
-  const handleSignOut = () => {
+  const handleGoogleSignOut = () => {
     signOut(auth)
      .then(() => {
       console.log('sign out');
@@ -38,7 +38,7 @@ const SignIn = () => {
              className='btn btn-info mt-6'>
               Sign In
      </button>
-     <button onClick={() => handleSignOut()}
+     <button onClick={() => handleGoogleSignOut()}
              className='btn btn-info mt-6'>
               Sign Out
      </button>
