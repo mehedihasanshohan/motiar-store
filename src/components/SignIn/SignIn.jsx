@@ -42,6 +42,7 @@ const SignIn = () => {
              className='btn btn-info mt-6'>
               Sign Out
      </button>
+     <button>Github Login</button>
       <p><span className='text-green-600'>{user.displayName}</span></p>
       <p><span>{user.email}</span></p>
       <img src={user.photoURL} alt="" />
